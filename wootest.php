@@ -11,7 +11,7 @@ Author URI:   github.com/keychera
 */
 if ( in_array( 'woocommerce/woocommerce.php', apply_filters( 'active_plugins', get_option( 'active_plugins' ) ) ) ) {
     function declare_test_classes() {
-        require_once('includes/class-wc-test-debugger.php');
+        require_once('includes/test-debugger.php');
         require_once('includes/class-wc-gateway-bank-bootstrapper.php');
         require_once('includes/class-wc-gateway-test.php');
 
